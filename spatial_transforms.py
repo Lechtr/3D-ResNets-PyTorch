@@ -43,10 +43,10 @@ class Resize(transforms.Resize):
         pass
 
 
-class Scale(transforms.Scale):
-
-    def randomize_parameters(self):
-        pass
+# class Scale(transforms.Scale):
+#
+#     def randomize_parameters(self):
+#         pass
 
 
 class CenterCrop(transforms.CenterCrop):
